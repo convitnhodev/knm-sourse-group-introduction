@@ -26,6 +26,7 @@ import {
     memojiHand,
     memojiHello,
     memojiOk,
+    nhom6,
     htmlCertificate,
     cssCertificate,
     jsCertificate,
@@ -151,7 +152,8 @@ const certificates = {
 };
 
 const memoji = {
-    image: [memojiHello, memojiHand, memojiOk],
+    // image: [memojiHello, memojiHand, memojiOk],
+    image: [nhom6],
 };
 
 const members = [

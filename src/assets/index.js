@@ -37,6 +37,7 @@ import venomsoulProject from './projects/venomsoul.png';
 import memojiHand from './memoji/memoji_hand-min.png';
 import memojiHello from './memoji/memoji_hello-min.png';
 import memojiOk from './memoji/memoji_ok-min.png';
+import nhom6 from './memoji/nhom6.png';
 
 //Certificates
 import htmlCertificate from './certificates/Html_Codecademy_Certificate.png';
@@ -72,6 +73,7 @@ export {
     memojiHand,
     memojiHello,
     memojiOk,
+    nhom6,
     htmlCertificate,
     cssCertificate,
     jsCertificate,

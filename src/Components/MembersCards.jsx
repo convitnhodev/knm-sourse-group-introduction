@@ -5,7 +5,7 @@ const MembersCards = () => {
     return (
         <div className="flex">
             <LazyMotion features={domAnimation} strict>
-                {members.map((skill, index) => (
+                {members.map((member, index) => (
                     <m.div
                         initial={{ scale: 0.8 }}
                         animate={{
@@ -24,8 +24,8 @@ const MembersCards = () => {
                         <div className="w-full h-[60px] flex items-center gap-2 p-1 flex-col">
                             <img
                                 className="h-[150px] flex justify-center items-center w-[150px]  bg-primary-600 rounded-[50%] p-1 object-contain"
-                                src={skill.icon}
-                                alt={skill.title}
+                                src={member.icon}
+                                alt={member.title}
                             />
                             <span
                                 className="text-xl"
@@ -34,9 +34,9 @@ const MembersCards = () => {
                                     fontWeight: 'bold',
                                 }}
                             >
-                                {skill.title}
+                                {member.title}
                             </span>
-                            {skill.description.map((desc, index) => (
+                            {member.description.map((desc, index) => (
                                 <span
                                     className="text-center bg-primary-600 text-grayscale-50 rounded-xl text-sm p-4"
                                     style={{
