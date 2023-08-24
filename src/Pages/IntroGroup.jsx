@@ -6,7 +6,7 @@ import ImageSlider from '../Components/elements/ImageSlider';
 
 const IntroGroup = () => {
     return (
-        <div id="about" className="w-full flex justify-center overflow-hidden-web">
+        <div id="about" className="w-full flex flex-col items-center justify-center overflow-hidden-web">
             <div className="w-full xl:w-[70%] flex flex-col pb-16">
                 <div className="w-full">
                     <SectionTitle title="NHÓM 6" subtitle="Introduction" />
@@ -39,6 +39,16 @@ const IntroGroup = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="mt-4">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/J_z-W4UVHkw"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allowFullScreen
+                ></iframe>
             </div>
         </div>
     );

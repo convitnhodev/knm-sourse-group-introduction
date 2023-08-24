@@ -1,15 +1,16 @@
 import { m, LazyMotion, domAnimation } from 'framer-motion';
 import SectionTitle from '../Components/SectionTitle';
-import { memoji } from '../Constants/constants';
-import { introduction } from '../Constants/constants';
+import { members } from '../Constants/constants';
 import ImageSlider from '../Components/elements/ImageSlider';
+import { Link } from 'react-router-dom';
 
-const VHung = () => {
+const MemberInfo = ({ id }) => {
+    const member = members.find((member) => member.id === id);
     return (
-        <div id="about" className="w-full flex justify-center overflow-hidden-web">
+        <div id={`member_${member.id}`} className="w-full flex justify-center overflow-hidden-web">
             <div className="w-full xl:w-[70%] flex flex-col pb-16">
                 <div className="w-full">
-                    <SectionTitle title="INTRODUCE GROUP" subtitle="Introduction" />
+                    <SectionTitle title={member.title} />
                 </div>
                 <div className="w-full flex flex-col-reverse sm:flex-row">
                     <div className="w-full md:w-[50%] md:h-full flex items-center mt-10">
@@ -26,22 +27,30 @@ const VHung = () => {
                                 style={{ fontFamily: 'Poppins, sans-serif' }}
                                 className="text-grayscale-50 p-6 text-center flex flex-col gap-6"
                             >
-                                <span className="text-primary-400">{introduction.text[0]}</span>
-                                <span>{introduction.text[1]}</span>
-                                <span>{introduction.text[2]}</span>
-                                <span>{introduction.text[3]}</span>
+                                {member.description?.map((text, index) => (
+                                    <span key={index}>{text}</span>
+                                ))}
                             </m.p>
                         </LazyMotion>
                     </div>
                     <div className="w-full md:w-[50%] flex h-full items-center justify-center">
                         <div className="w-[80%] lg:w-[50%] h-[300px] sm:h-[350px] flex justify-center items-center">
-                            <ImageSlider images={memoji.image} />
+                            <ImageSlider images={[member.icon]} />
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="mt-4">
+                <Link
+                    to="/"
+                    className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-md text-center"
+                    style={{ backgroundColor: 'blue', color: 'white' }}
+                >
+                    Back to Home
+                </Link>
             </div>
         </div>
     );
 };
 
-export default VHung;
+export default MemberInfo;

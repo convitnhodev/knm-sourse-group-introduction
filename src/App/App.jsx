@@ -3,13 +3,16 @@ import IntroGroup from '../Pages/IntroGroup';
 import Members from '../Pages/Members';
 import Contact from '../Pages/Contact';
 import { Route, Routes } from 'react-router-dom';
-import VHung from '../Pages/VHung';
+import MemberInfo from '../Pages/MemberInfo';
+import { members } from '../Constants/constants';
 
 function App() {
     return (
         <>
             <Routes>
-                <Route path="/vhung" element={<VHung />} />
+                {members.map((member, index) => (
+                    <Route key={index} path={`/${member.id}`} element={<MemberInfo id={member.id} />} />
+                ))}
                 <Route
                     path="*"
                     element={

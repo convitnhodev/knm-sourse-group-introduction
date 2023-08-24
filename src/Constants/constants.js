@@ -1,83 +1,22 @@
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faX, faBars, faWindowRestore, faBagShopping, faDiceD6 } from '@fortawesome/free-solid-svg-icons';
-import { faReact, faGithub, faYoutube, faTiktok } from '@fortawesome/free-brands-svg-icons';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
 
-import {
-    codecademy,
-    htmlIcon,
-    cssIcon,
-    jsIcon,
-    reactIcon,
-    threeIcon,
-    tailwindIcon,
-    reduxIcon,
-    gitIcon,
-    githubIcon,
-    gsapIcon,
-    shopifyIcon,
-    webflowIcon,
-    framerIcon,
-    figmaIcon,
-    jammmingProject,
-    teslaProject,
-    venomsoulProject,
-    memojiHand,
-    memojiHello,
-    memojiOk,
-    nhom6,
-    htmlCertificate,
-    cssCertificate,
-    jsCertificate,
-    reactCertificate,
-    webflowCertificate,
-} from '../assets';
+import { vhung, nhom6, ttan } from '../assets';
 
 const media = {
-    codecademy,
-    htmlIcon,
-    cssIcon,
-    jsIcon,
-    reactIcon,
-    threeIcon,
-    tailwindIcon,
-    reduxIcon,
-    gitIcon,
-    githubIcon,
-    gsapIcon,
-    shopifyIcon,
-    webflowIcon,
-    framerIcon,
-    figmaIcon,
-    jammmingProject,
-    teslaProject,
-    venomsoulProject,
-    memojiHand,
-    memojiHello,
-    memojiOk,
-    htmlCertificate,
-    cssCertificate,
-    jsCertificate,
-    reactCertificate,
-    webflowCertificate,
+    vhung,
 };
 
 const icons = {
     faBars,
     faX,
-    faWindowRestore,
-    faBagShopping,
-    faDiceD6,
-    faReact,
-    faGithub,
-    faYoutube,
-    faTiktok,
 };
 
 const introduction = {
     text: [
-        "Hi there, I'm glad to have you here!",
+        'Xin chào các bạn, chúng mình là nhóm 6',
 
         'Chào mừng bạn đến với nhóm môn học về kỹ năng mềm! Trong khung chương trình này, chúng ta sẽ khám phá và phát triển những khả năng quan trọng không thể thiếu trong cuộc sống và sự nghiệp',
 
@@ -87,70 +26,6 @@ const introduction = {
     ],
 };
 
-const journeys = [
-    {
-        title: 'Web Foundations',
-        company_name: 'Codecademy',
-        icon: codecademy,
-        iconBg: '#204056',
-        date: '5 Dec 2022 - 14 Dec 2022',
-        points: ['Fundamentals of HTML', 'Fundamentals of CSS', 'Developing Websites Locally', 'Deploying Websites'],
-    },
-    {
-        title: 'Improved Styling with CSS',
-        company_name: 'Codecademy',
-        icon: codecademy,
-        iconBg: '#204056',
-        date: '15 Dec 2022 - 29 Dec 2022',
-        points: ['Fundamentals of Web Design', 'Making a Website Responsive', 'CSS Transitions and Animations'],
-    },
-    {
-        title: 'Building Interactive Websites',
-        company_name: 'Codecademy',
-        icon: codecademy,
-        iconBg: '#204056',
-        date: '30 Dec 2022 -  9 Feb 2023',
-        points: ['JavaScript Syntax', 'Building Interactive Websites', 'Making a Website Accessible', 'Git and Github'],
-    },
-    {
-        title: 'Front-End Development',
-        company_name: 'Codecademy',
-        icon: codecademy,
-        iconBg: '#204056',
-        date: '10 Feb - Present',
-        points: ['JavaScript Syntax', 'JavaScript Testing', 'Async JavaScript', 'Web Apps', 'React Framework'],
-    },
-];
-
-const projects = [
-    {
-        name: 'Venomsoul E-Commerce',
-        description: '',
-        image: venomsoulProject,
-        source_code_link: 'https://github.com/valeriusec',
-        demo_link: 'https://infopilot.netlify.app/',
-    },
-    {
-        name: 'Tesla Website',
-        description: '',
-        image: teslaProject,
-        source_code_link: 'https://github.com/valeriusec/tesla-website',
-        demo_link: 'https://infopilot.netlify.app/',
-    },
-    {
-        name: 'Jammming App',
-        description:
-            "Jammming allows you to search for your favorite songs and create custom playlists. Once you've created your playlist, you can export it directly to your Spotify account.",
-        image: jammmingProject,
-        source_code_link: 'https://github.com/valeriusec/jammming-app',
-        demo_link: 'https://jammming-b7d.pages.dev/',
-    },
-];
-
-const certificates = {
-    image: [htmlCertificate, cssCertificate, jsCertificate, reactCertificate, webflowCertificate],
-};
-
 const memoji = {
     // image: [memojiHello, memojiHand, memojiOk],
     image: [nhom6],
@@ -158,9 +33,9 @@ const memoji = {
 
 const members = [
     {
-        id: 'vhung1',
+        id: 'vhung',
         title: 'Thái Nguyễn Việt Hùng',
-        icon: htmlIcon,
+        icon: vhung,
         description: [
             'Mục tiêu: Trở thành một solution architect trong vòng 7 năm tới, lấy được vợ đẹp con ngoan.',
             'Ưu điểm: Xử lí vấn đề tốt, thích cái gì thì học tới cùng, không có khái niệm bỏ cuộc. ',
@@ -168,9 +43,9 @@ const members = [
         ],
     },
     {
-        id: 'vhung2',
+        id: 'ttan',
         title: 'Trần Trọng Tấn',
-        icon: htmlIcon,
+        icon: ttan,
         description: [
             'Mục tiêu: Tốt nghiệp đúng hạn, đạt được mục tiêu về kiến thức mà bản thân đã đặt ra.',
             'Ưu điểm: Luôn tò mò thích khám phá kiến thức mới, luôn cố gắng hoàn thành bằng được công việc được giao. Thẳng thắn thật thà trong công việc.',
@@ -178,9 +53,9 @@ const members = [
         ],
     },
     {
-        id: 'vhung3',
+        id: 'htai',
         title: 'Huu Tai',
-        icon: htmlIcon,
+        icon: vhung,
         description: [
             'Mục tiêu: Phát triển những kỹ năng cần thiết để phục vụ cho môi trường làm việc trong tương lại',
             'Ưu điểm: Tư duy phản biện, xử lý vấn đề.',
@@ -188,9 +63,9 @@ const members = [
         ],
     },
     {
-        id: 'vhung4',
+        id: 'ttung',
         title: 'Trần Thanh Tùng',
-        icon: htmlIcon,
+        icon: vhung,
         description: [
             'Mục tiêu: Phát triển những kỹ năng cần thiết để đáp ứng được những nhu cầu của thị trường việc làm',
             'Ưu điểm: Dễ thích ứng, khả năng tìm kiếm thông tin nhanh, Ứng biến tốt',
@@ -198,9 +73,9 @@ const members = [
         ],
     },
     {
-        id: 'vhung5',
+        id: 'chi',
         title: 'Chi',
-        icon: htmlIcon,
+        icon: vhung,
         description: [
             'Mục tiêu:  Cải thiện các kỹ năng quan trọng như giao tiếp, trình bày và tư duy..',
             'Ưu điểm: Có trách nhiệm, hòa đồng.',
@@ -208,9 +83,9 @@ const members = [
         ],
     },
     {
-        id: 'vhung6',
+        id: 'khanh',
         title: 'Khanh',
-        icon: htmlIcon,
+        icon: vhung,
         description: [
             'Mục tiêu: Ổn định công việc hiện tại và phát triển bản thân hơn cho kế hoạch tương lai.',
             'Ưu điểm: Adaptability, Time management, Methodology & Logical Thinking and Work Ethic.',
@@ -232,4 +107,4 @@ const globeData = [...Array(N).keys()].map(() => ({
     color: 'red',
 }));
 
-export { media, introduction, journeys, projects, certificates, memoji, members, markerSvg, globeData, icons };
+export { media, introduction, memoji, members, markerSvg, globeData, icons };

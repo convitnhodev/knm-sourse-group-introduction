@@ -1,6 +1,7 @@
 import MarqueeCards from '../Components/MarqueeCards';
 import SectionTitle from '../Components/SectionTitle';
 import MembersCards from '../Components/MembersCards';
+import AstronautImage from '../Components/AstronautImage';
 
 const Members = () => {
     return (
@@ -9,19 +10,22 @@ const Members = () => {
                 <div className="w-full">
                     <SectionTitle title="MEMBERS" subtitle="WHAT I DO" />
                 </div>
-                <div className="xl:border-l-2 xl:border-r-2 xl:border-primary-400 h-full">
+                <div className="relative xl:border-l-2 xl:border-r-2 xl:border-primary-400 h-full">
                     <div className="relative">
                         <div className="absolute top-[45px] w-full h-[1px] bg-primary-400"></div>
                         <MarqueeCards direction="left">
                             <MembersCards />
                         </MarqueeCards>
                     </div>
-                    {/* <div className="relative">
+                    <div className="relative">
                         <div className="absolute top-[45px] w-full h-[1px] bg-primary-400"></div>
                         <MarqueeCards direction="right">
                             <MembersCards />
                         </MarqueeCards>
-                    </div> */}
+                    </div>
+                    <div className="absolute w-full h-full top-[-25%] right-[-75%] sm:right-[-50%]">
+                        <AstronautImage />
+                    </div>
                 </div>
             </div>
         </div>
