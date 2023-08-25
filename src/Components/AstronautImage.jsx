@@ -21,7 +21,7 @@ const AstronautImage = () => {
     return (
         <div ref={ref} className="w-full h-full relative">
             <div className="w-full h-full astro-path">
-                <BgQuote text="Team Members" />
+                <BgQuote text="MAD SUMMER" />
                 <svg
                     className="w-[90%] h-[90%] rotate-[-45deg]"
                     xmlns="http://www.w3.org/2000/svg"

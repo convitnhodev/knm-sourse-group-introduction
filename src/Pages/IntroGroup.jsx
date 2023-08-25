@@ -3,6 +3,7 @@ import SectionTitle from '../Components/SectionTitle';
 import { memoji } from '../Constants/constants';
 import { introduction } from '../Constants/constants';
 import ImageSlider from '../Components/elements/ImageSlider';
+import AstronautImage from '../Components/AstronautImage';
 
 const IntroGroup = () => {
     return (
@@ -11,7 +12,7 @@ const IntroGroup = () => {
                 <div className="w-full">
                     <SectionTitle title="NHÓM 6" subtitle="Introduction" />
                 </div>
-                <div className="w-full flex flex-col-reverse sm:flex-row">
+                <div className="relative w-full flex flex-col-reverse sm:flex-row">
                     <div className="w-full md:w-[50%] md:h-full flex items-center mt-10">
                         <LazyMotion features={domAnimation} strict>
                             <m.p
@@ -37,6 +38,9 @@ const IntroGroup = () => {
                         <div className="w-[80%] lg:w-[50%] h-[300px] sm:h-[350px] flex justify-center items-center">
                             <ImageSlider images={memoji.image} />
                         </div>
+                    </div>
+                    <div className="absolute w-full h-full top-[-40%] right-[-75%] sm:right-[-52%]">
+                        <AstronautImage />
                     </div>
                 </div>
             </div>

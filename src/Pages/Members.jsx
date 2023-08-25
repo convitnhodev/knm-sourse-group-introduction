@@ -6,7 +6,7 @@ import AstronautImage from '../Components/AstronautImage';
 const Members = () => {
     return (
         <div id="skills" className="w-full overflow-hidden-web flex justify-center">
-            <div className="w-full min-h-[600px] flex flex-col xl:w-[70%]">
+            <div className="w-full min-h-[500px] flex flex-col xl:w-[70%]">
                 <div className="w-full">
                     <SectionTitle title="MEMBERS" subtitle="WHAT I DO" />
                 </div>
@@ -16,15 +16,6 @@ const Members = () => {
                         <MarqueeCards direction="left">
                             <MembersCards />
                         </MarqueeCards>
-                    </div>
-                    <div className="relative">
-                        <div className="absolute top-[45px] w-full h-[1px] bg-primary-400"></div>
-                        <MarqueeCards direction="right">
-                            <MembersCards />
-                        </MarqueeCards>
-                    </div>
-                    <div className="absolute w-full h-full top-[-25%] right-[-75%] sm:right-[-50%]">
-                        <AstronautImage />
                     </div>
                 </div>
             </div>

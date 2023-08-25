@@ -16,7 +16,7 @@ const icons = {
 
 const introduction = {
     text: [
-        'Xin chào các bạn, chúng mình là nhóm 6',
+        'Xin chào các bạn, chúng mình là MAD SUMMER',
 
         'Chào mừng bạn đến với nhóm môn học về kỹ năng mềm! Trong khung chương trình này, chúng ta sẽ khám phá và phát triển những khả năng quan trọng không thể thiếu trong cuộc sống và sự nghiệp',
 
