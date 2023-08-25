@@ -12,6 +12,11 @@ const NavLinks = ({ handleClick }) => {
                         Thành viên
                     </a>
                 </li>
+                <li className="border-t-[1px] border-grayscale-950 w-full flex justify-center p-3">
+                <a className="active:text-grayscale-100" href="https://studenthcmusedu-my.sharepoint.com/personal/20120180_student_hcmus_edu_vn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F20120180%5Fstudent%5Fhcmus%5Fedu%5Fvn%2FDocuments%2FKyNangMem&view=0&fbclid=IwAR0TrXpt4Wjr52XTHhfgfI%5Fegd8z93OdRmQLPw38DHg27Pe7dCf9bllpajA" target="_blank" rel="noopener noreferrer">
+                Biên bản nhóm
+            </a>
+                </li>
                 <li className="border-t-[1px] border-b-[1px] border-grayscale-950 w-full flex justify-center p-3">
                     <a className="active:text-grayscale-100" onClick={handleClick} href="#contact">
                         Liên hệ

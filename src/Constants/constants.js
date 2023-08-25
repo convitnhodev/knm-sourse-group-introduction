@@ -3,7 +3,7 @@ import { faX, faBars, faWindowRestore, faBagShopping, faDiceD6 } from '@fortawes
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
 
-import { vhung, nhom6, ttan } from '../assets';
+import { vhung, nhom6, ttan, chi, tai, tung, khanh } from '../assets';
 
 const media = {
     vhung,
@@ -54,8 +54,8 @@ const members = [
     },
     {
         id: 'htai',
-        title: 'Huu Tai',
-        icon: vhung,
+        title: 'Nguyễn Hữu Tài',
+        icon: tai,
         description: [
             'Mục tiêu: Phát triển những kỹ năng cần thiết để phục vụ cho môi trường làm việc trong tương lại',
             'Ưu điểm: Tư duy phản biện, xử lý vấn đề.',
@@ -65,7 +65,7 @@ const members = [
     {
         id: 'ttung',
         title: 'Trần Thanh Tùng',
-        icon: vhung,
+        icon: tung,
         description: [
             'Mục tiêu: Phát triển những kỹ năng cần thiết để đáp ứng được những nhu cầu của thị trường việc làm',
             'Ưu điểm: Dễ thích ứng, khả năng tìm kiếm thông tin nhanh, Ứng biến tốt',
@@ -74,8 +74,8 @@ const members = [
     },
     {
         id: 'chi',
-        title: 'Chi',
-        icon: vhung,
+        title: 'Hồ Thị Kim Chi ',
+        icon: chi,
         description: [
             'Mục tiêu:  Cải thiện các kỹ năng quan trọng như giao tiếp, trình bày và tư duy..',
             'Ưu điểm: Có trách nhiệm, hòa đồng.',
@@ -84,8 +84,8 @@ const members = [
     },
     {
         id: 'khanh',
-        title: 'Khanh',
-        icon: vhung,
+        title: 'Trần Cẩm Khánh ',
+        icon: khanh,
         description: [
             'Mục tiêu: Ổn định công việc hiện tại và phát triển bản thân hơn cho kế hoạch tương lai.',
             'Ưu điểm: Adaptability, Time management, Methodology & Logical Thinking and Work Ethic.',

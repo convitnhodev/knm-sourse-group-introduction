@@ -44,7 +44,7 @@ const IntroGroup = () => {
                 <iframe
                     width="560"
                     height="315"
-                    src="https://www.youtube.com/embed/J_z-W4UVHkw"
+                    src="https://www.youtube.com/embed/Rn5fAJDwLK0?si=_Go13i1iFOig4awg"
                     title="YouTube video player"
                     frameBorder="0"
                     allowFullScreen

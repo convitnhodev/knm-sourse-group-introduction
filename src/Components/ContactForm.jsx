@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
-import emailjs from "@emailjs/browser";
+import axios from 'axios';
 
 const ContactForm = () => {
   const [isSent, setIsSent] = useState(false);
@@ -9,24 +9,32 @@ const ContactForm = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+  
+    const formData = new FormData(form.current);
+  
+    let message = "New contact form submission:\n";
+  
+    for (let [name, value] of formData.entries()) {
+      message += `${name}: ${value}\n`;
+    }
 
-    emailjs
-      .sendForm(
-        env.VITE_REACT_APP_EJS_SERVICE,
-        env.VITE_REACT_APP_EJS_TEMPLATE,
-        form.current,
-        env.VITE_REACT_APP_EJS_KEY
-      )
-      .then(
-        (result) => {
-          document.getElementById("contact_form").reset();
-          setIsSent(true);
-        },
-        (error) => {
-          console.error(error);
-          setIsSent(false);
-        }
-      );
+    console.log(message)
+  
+    const botToken = '6044700730:AAFR9FNJETE62Kmt1oSyNYuhKlwf1RhmOQE';
+    const chatId = '-922233380'; // Replace with the actual chat ID you want to send the message to
+  
+    const apiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
+  
+    axios.post(apiUrl, {
+      chat_id: chatId,
+      text: message,
+    })
+    .then(response => {
+      console.log('Message sent successfully:', response.data);
+    })
+    .catch(error => {
+      console.error('Error sending message:', error);
+    });
   };
 
   return (
@@ -103,6 +111,7 @@ const ContactForm = () => {
               className="w-[100px] h-[50px] bg-primary-600 rounded-xl cursor-pointer hover:bg-primary-700"
               type="submit"
               value={!isSent ? 'Send' : 'Done!'}
+    
               
             />
           </div>
