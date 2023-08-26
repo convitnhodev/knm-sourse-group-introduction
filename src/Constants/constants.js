@@ -48,7 +48,8 @@ const members = [
         title: 'Trần Trọng Tấn',
         icon: ttan,
         description: [
-            'Mục tiêu: Tốt nghiệp đúng hạn, đạt được mục tiêu về kiến thức mà bản thân đã đặt ra.',
+            'Mình là Tấn,  21 tuổi. Mình đang là sinh viên năm cuối của trường.',
+            'Mục tiêu: Tốt nghiệp đúng hạn, đạt được những kiến thức mà bản thân đã đặt ra. Có thể ứng dụng được các kiến thức AI trong chuyên ngành vào các sản phẩm phần mềm trong tương lai.',
             'Ưu điểm: Luôn tò mò thích khám phá kiến thức mới, luôn cố gắng hoàn thành bằng được công việc được giao. Thẳng thắn thật thà trong công việc.',
             'Nhược điểm: Còn lười biếng, trì hoãn...',
         ],
