@@ -37,9 +37,10 @@ const members = [
         title: 'Thái Nguyễn Việt Hùng',
         icon: vhung,
         description: [
-            'Mục tiêu: Trở thành một solution architect trong vòng 7 năm tới, lấy được vợ đẹp con ngoan.',
-            'Ưu điểm: Xử lí vấn đề tốt, thích cái gì thì học tới cùng, không có khái niệm bỏ cuộc. ',
-            'Nhược điểm: Còn lười biếng, trì hoãn, và hay nhảy việc...',
+            'Minh là Hùng, sinh năm 2002. mình là sinh viên năm cuối trường đại học Khoa học tự nhiên. Hiện mình đang là backend-engineer.',
+            'Mục tiêu: Trở thành một solution architect trong vòng 7 năm tới, lấy được vợ đẹp con ngoan. Về quê xây được căn nhà và nhìn những đứa con của mình lớn lên môi ngày. ',
+            'Ưu điểm: Xử lí vấn đề tốt, thích cái gì thì học tới cùng. Mình chịu khó học hỏi những thú mình thích. Với mình, không có khải niệm bỏ cuộc :v',
+            'Nhược điểm: Còn lười biếng, trì hoãn, nhiều lúc không làm chủ được bản thân và hay sa vào những cuộc chơi không đáng có.',
         ],
     },
     {
