@@ -59,6 +59,7 @@ const members = [
         title: 'Nguyễn Hữu Tài',
         icon: tai,
         description: [
+            'Xin chào, mình là Tài, là sinh viên đại học Khoa học tự nhiên. Mong muốn làm trong lĩnh vực data.', 
             'Mục tiêu: Phát triển những kỹ năng cần thiết để phục vụ cho môi trường làm việc trong tương lại',
             'Ưu điểm: Tư duy phản biện, xử lý vấn đề.',
             'Nhược điểm:  kỹ năng giao tiếp.',
