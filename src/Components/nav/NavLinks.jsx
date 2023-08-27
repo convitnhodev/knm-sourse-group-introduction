@@ -13,7 +13,7 @@ const NavLinks = ({ handleClick }) => {
                     </a>
                 </li>
                 <li className="border-t-[1px] border-grayscale-950 w-full flex justify-center p-3">
-                <a className="active:text-grayscale-100" href="https://studenthcmusedu-my.sharepoint.com/personal/20120180_student_hcmus_edu_vn/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F20120180%5Fstudent%5Fhcmus%5Fedu%5Fvn%2FDocuments%2FKyNangMem&view=0&fbclid=IwAR0TrXpt4Wjr52XTHhfgfI%5Fegd8z93OdRmQLPw38DHg27Pe7dCf9bllpajA" target="_blank" rel="noopener noreferrer">
+                <a className="active:text-grayscale-100" href="https://studenthcmusedu-my.sharepoint.com/personal/20120180_student_hcmus_edu_vn/_layouts/15/onedrive.aspx?fbclid=IwAR1guGFVKNKo%2DsxSKeW6IrIK1ZKPonA2xBEYKUY2v2SfICLGguDNuRjW0aw&id=%2Fpersonal%2F20120180%5Fstudent%5Fhcmus%5Fedu%5Fvn%2FDocuments%2FKyNangMem%2FHopDongThanhLapNhom%2FNhom6%5FHopDongThanhLapNhom%2Epdf&parent=%2Fpersonal%2F20120180%5Fstudent%5Fhcmus%5Fedu%5Fvn%2FDocuments%2FKyNangMem%2FHopDongThanhLapNhom" target="_blank" rel="noopener noreferrer">
                 Biên bản nhóm
             </a>
                 </li>
