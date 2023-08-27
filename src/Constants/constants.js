@@ -92,9 +92,11 @@ const members = [
         title: 'Trần Cẩm Khánh ',
         icon: khanh,
         description: [
+            'Xin chào mọi người, mình là Khánh và mình đến từ Đồng Nai. Hiện tại mình là sinh viên K19 trường mình với MSSV là 19120542. Mình theo học chuyên ngành Công nghệ tri thức tại trường mình, tuy vậy mình đã cảm thấy không very hợp with nó, nên mình đã chuyển sang hướng khác.',
             'Mục tiêu: Ổn định công việc hiện tại và phát triển bản thân hơn cho kế hoạch tương lai.',
             'Ưu điểm: Adaptability, Time management, Methodology & Logical Thinking and Work Ethic.',
             'Nhược điểm: Unmotivated, Lazy, Sometimes be under pressure.',
+            'Có thể liên lạc mình @Mail: 19120542@student.hcmus.edu.vn',
         ],
     },
 ];
