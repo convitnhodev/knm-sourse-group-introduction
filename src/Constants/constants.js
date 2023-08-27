@@ -79,6 +79,7 @@ const members = [
         title: 'Hồ Thị Kim Chi ',
         icon: chi,
         description: [
+            'Xin chào, mình là Chi, sinh viên năm cuối trường Đại học Khoa học Tự nhiên, ĐHQG-HCM. Mình thích màu hồng, ghét màu đen. Trừ những món ăn mình không thích ra thì món nào mình cũng thích.',
             'Mục tiêu:  Cải thiện các kỹ năng quan trọng như giao tiếp, trình bày và tư duy..',
             'Ưu điểm: Có trách nhiệm, hòa đồng.',
             'Nhược điểm: Dễ bị mất động lực, thường hay trì trệ thời gian làm việc.',
