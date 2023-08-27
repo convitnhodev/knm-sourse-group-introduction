@@ -69,9 +69,11 @@ const members = [
         title: 'Trần Thanh Tùng',
         icon: tung,
         description: [
+            'Xin chào mọi người, mình là Tùng, 21 tuổi, hiện là sinh viên năm cuối trường Tự Nhiên. Về ngoại hình, mình nói thật là không quá nổi bật. Da ngăm đen, gương mặt bụi bặm là đặc điểm nhận dạng chính của mình. ',
             'Mục tiêu: Phát triển những kỹ năng cần thiết để đáp ứng được những nhu cầu của thị trường việc làm',
-            'Ưu điểm: Dễ thích ứng, khả năng tìm kiếm thông tin nhanh, Ứng biến tốt',
+            'Ưu điểm: Nói về điểm mạnh của mình thì... ừm...điểm mạnh duy nhất của mình là biết cách giết thời gian bằng cách xem phim, chơi game hoặc nằm ngủ :))',
             'Nhược điểm: Làm việc theo động lực, chưa quản lỹ quỹ thời gian tốt, dễ bị overthinking,',
+            'Đây là một giới thiệu khá thật về bản thân mình. Hy vọng rằng sau khi nghe mình giới thiệu, các bạn vẫn muốn kết bạn với một "cục táo" như mình. Chào mọi người!'
         ],
     },
     {
